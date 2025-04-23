@@ -1,8 +1,8 @@
 const isProd = Boolean(import.meta.env.PROD)
 
 export const site = {
-  url: 'https://devhints.io',
-  title: 'Devhints.io cheatsheets'
+  url: 'https://rthur.me/cheatsheets',
+  title: 'rthur.me cheatsheets'
 } as const
 
 export const etc = {
@@ -10,7 +10,7 @@ export const etc = {
 } as const
 
 export const disqus = {
-  enabled: true,
+  enabled: false,
   host: 'devhints.disqus.com'
 } as const
 
